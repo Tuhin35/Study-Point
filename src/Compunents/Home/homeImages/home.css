@@ -1,0 +1,19 @@
+
+.home{
+ height: 90vh;
+}
+
+.animationPic {
+    animation: updown 3s ease-in-out infinite alternate-reverse both;
+  }
+  
+  @keyframes updown {
+    0% {
+      transform: translateY(15px);
+    }
+  
+    100% {
+      transform: translateY(-15px);
+    }
+  }
+  
